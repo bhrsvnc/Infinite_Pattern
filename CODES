@@ -1,0 +1,19 @@
+import turtle
+import random
+
+t = turtle.Turtle()
+t.shape("turtle")
+
+i=1
+
+color = input("Choose the color of the pattern: ")
+speed = int(input("Choose the speed: "))
+
+
+t.speed(speed)
+t.color(color)
+
+while True:
+    t.forward(i)
+    t.left(91)
+    i = i + 5
